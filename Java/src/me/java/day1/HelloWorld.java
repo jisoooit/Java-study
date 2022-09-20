@@ -42,10 +42,14 @@ public class HelloWorld {
         boolean b = true;
 
         //int
-        System.out.println("int");
-        System.out.printf("%S\n", s);
-        System.out.printf("%30s\n", s);
-        System.out.printf("%30S\n", s);
+        System.out.printf("%d\n", i);
+        System.out.printf("%10d\n", i); // 오른쪽으로 정렬
+        System.out.printf("%-10d\n", i); // 왼쪽으로 정렬
+        System.out.printf("%010d\n", i);
+        System.out.printf("%o\n", i);
+        System.out.printf("%x\n", i);
+        System.out.printf("%X\n", i);
+        System.out.printf("%n");
         System.out.println();
 
 
