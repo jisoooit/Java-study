@@ -3,6 +3,7 @@ package me.java.day1;
 public class HelloWorld {
     public static void main(String[] args) {
 
+        System.out.println("실습 1");
         /*
          * this is javadoc comment
          * it will be included at .class file (after compile)
