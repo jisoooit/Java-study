@@ -10,17 +10,17 @@ public class Practice3 {
         int num2 = sc.nextInt();
         String op = sc.next();
 
-        if (op.equals("+")){
-            System.out.println(num1+num2);
-        }else if( op.equals("-")) {
+        if (op.equals("+")) {
+            System.out.println(num1 + num2);
+        } else if( op.equals("-")) {
             System.out.println(num1 - num2);
-        }else if(op.equals("*")) {
+        } else if(op.equals("*")) {
             System.out.println(num1 * num2);
-        }else if(op.equals("/")) {
-            System.out.println(num1/num2);
-         }else if (op.equals("%")) {
-            System.out.println(num1%num2);
-        }else{
+        } else if(op.equals("/")) {
+            System.out.println(num1 / num2);
+        } else if (op.equals("%")) {
+            System.out.println(num1 % num2);
+        } else{
             System.out.println("연산자가 유효하지 않습니다.");
         }
 
